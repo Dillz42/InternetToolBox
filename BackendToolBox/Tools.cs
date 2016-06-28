@@ -31,7 +31,8 @@ namespace BackendToolBox
                 responseMessage += ch;
                 ch = (char)dataStream.ReadByte();
             }
-
+            dataStream.Close();
+            response.Close();
             return responseMessage;
         }
 
