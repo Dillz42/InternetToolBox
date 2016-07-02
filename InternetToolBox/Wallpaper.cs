@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace BackendToolBox
+namespace InternetToolBox
 {
     public sealed class Wallpaper
     {
